@@ -1,0 +1,11 @@
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.exe
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.deps.json
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.runtimeconfig.json
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.runtimeconfig.dev.json
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.dll
+C:\Converter\tj\bin\Debug\netcoreapp3.1\tj.pdb
+C:\Converter\tj\obj\Debug\netcoreapp3.1\tj.csprojAssemblyReference.cache
+C:\Converter\tj\obj\Debug\netcoreapp3.1\tj.AssemblyInfoInputs.cache
+C:\Converter\tj\obj\Debug\netcoreapp3.1\tj.AssemblyInfo.cs
+C:\Converter\tj\obj\Debug\netcoreapp3.1\tj.dll
+C:\Converter\tj\obj\Debug\netcoreapp3.1\tj.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Converter\\tj\\tj.csproj": {}
+    "C:\\Converter\\tj\\tj.csproj": {}
   },
   "projects": {
-    "c:\\Converter\\tj\\tj.csproj": {
+    "C:\\Converter\\tj\\tj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Converter\\tj\\tj.csproj",
+        "projectUniqueName": "C:\\Converter\\tj\\tj.csproj",
         "projectName": "tj",
-        "projectPath": "c:\\Converter\\tj\\tj.csproj",
+        "projectPath": "C:\\Converter\\tj\\tj.csproj",
         "packagesPath": "C:\\Users\\Aziz\\.nuget\\packages\\",
-        "outputPath": "c:\\Converter\\tj\\obj\\",
+        "outputPath": "C:\\Converter\\tj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aziz\\AppData\\Roaming\\NuGet\\NuGet.Config"
