@@ -6,12 +6,13 @@ namespace tj
     {
         static void Main()
         {
+          Converter Kurs=new Converter(10.2183,11.0174,0.1316);
           Console.WriteLine("Если хотите поменять Сомони на ДОЛАР или на ЕВРО или на РУБЛЬ  намите 1:");
-          Console.WriteLine("Если хотите поменять ДОЛАР или на ЕВРО или на РУБЛЬ на СОМОНИ намите 2:");
+          Console.WriteLine("Если хотите поменять ДОЛАР или  ЕВРО или  РУБЛЬ на СОМОНИ намите 2:");
           int n1=Int32.Parse(Console.ReadLine());
           if(n1==1)
+        
           {
-          Converter Kurs=new Converter(10.2183,11.0174,0.1316);
           Console.WriteLine($"Если хотите обменять СОМОНИ на ДОЛАР нажмите на 1: ");
           Console.WriteLine($"Если хотите обменять СОМОНИ на ЕВРО нажмите на 2: ");
           Console.WriteLine($"Если хотите обменять СОМОНИ на РУБЛЬ нажмите на 3: ");
@@ -29,11 +30,30 @@ namespace tj
               case 3:
               Kurs.obmenrub(S);
               break;
-
-               
-               
-              
+              }
           }
+          else
+          {
+          Console.WriteLine($"Если хотите обменять ДОЛАР на СОМОНИ нажмите на 1: ");
+          Console.WriteLine($"Если хотите обменять ЕВРО на СОМОНИ нажмите на 2: ");
+          Console.WriteLine($"Если хотите обменять РУБЛЬ на СОМОНИ нажмите на 3: ");
+          int n=Int32.Parse(Console.ReadLine());
+          Console.WriteLine("Введите сумму которую хотите поменять");
+          double S=Int32.Parse(Console.ReadLine());
+          switch(n)
+          {
+              case 1:
+              Kurs.obmendollar1(S);
+              break;
+              case 2:
+              Kurs.obmendevro1(S);
+              break;
+              case 3:
+              Kurs.obmenrub1(S);
+              break;
+              }
+
+
           }
           
         }
@@ -63,6 +83,22 @@ namespace tj
      {
         double S1=m/this.rub;
         Console.WriteLine($"Ваша сумма относительно сегоднячного курса долара будеть {S1} рубль");
+     }
+
+     public void obmendollar1(double m)
+     {
+        double S1=m*this.usd;
+        Console.WriteLine($"Ваша сумма относительно сегоднячного курса ДОЛАРА будеть {S1} Сомони");
+     }
+    public void obmendevro1(double m)
+     {
+        double S1=m*this.eur;
+        Console.WriteLine($"Ваша сумма относительно сегоднячного курса ЕВРО будеть {S1} Сомони");
+     }
+      public void obmenrub1(double m)
+     {
+        double S1=m*this.rub;
+        Console.WriteLine($"Ваша сумма относительно сегоднячного курса долара будеть {S1} Сомони");
      }
 
     }
